@@ -9,9 +9,9 @@ import androidx.appcompat.app.AppCompatActivity;
 
 
 public class MainActivity extends AppCompatActivity {
-    EditText username;
-    EditText password;
-    Button loginButton;
+    private EditText username;
+    private EditText password;
+    private Button loginButton;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
