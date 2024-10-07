@@ -28,7 +28,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Login"
+                android:text="@string/login"
                 android:id="@+id/loginText"
                 android:textSize="36sp"
                 android:textAlignment="center"
@@ -45,7 +45,6 @@
                 android:hint="Username"
                 android:padding="8dp"
                 android:textColor="@color/black"
-                android:textColorHighlight="@color/cardview_dark_background"
                 android:layout_marginTop="40dp"/>
 
             <EditText
@@ -59,7 +58,6 @@
                 android:padding="8dp"
                 android:inputType="textPassword"
                 android:textColor="@color/black"
-                android:textColorHighlight="@color/cardview_dark_background"
                 android:layout_marginTop="20dp"/>
 
             <Button

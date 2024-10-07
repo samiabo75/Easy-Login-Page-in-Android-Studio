@@ -16,5 +16,15 @@
     <color name="transparent">#00000000</color>
     <color name="login_color">#a70000</color>
 
+    <color name="purple_200">#49464C</color>
+    <color name="purple_500">#809FB7</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#CE9B03</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="lavender">#8C93C7</color>
+    <color name="dark_lavender">#6A0DAD</color>
+    <color name="soft_beige">#F5F5DC</color>
+    <color name="dark_beige">#A4947B</color>
+
 
 </resources>
