@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 if (username.getText().toString().equals("user") && password.getText().toString().equals("1234"))
                 {
-                    Intent intent = new Intent(MainActivity.this, FloatingActionButton.class);
+                    Intent intent = new Intent(MainActivity.this, MainMenuActivity.class);
                     startActivity(intent);
                     finish();
                 }
