@@ -1,21 +1,25 @@
-package com.ls.loginpage;
+package com.ls.loginpage.DashboardActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
+import android.os.Looper;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.ls.loginpage.R;
+
 public class SplashActivity extends AppCompatActivity {
 
-    public static int SPLASH_TIMER = 3000;
+    public static final int SPLASH_TIMER = 3000;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
 
-        new Handler().postDelayed(new Runnable() {
+        // שימוש ב-Handler עם Looper המודרני
+        new Handler(Looper.getMainLooper()).postDelayed(new Runnable() {
             @Override
             public void run() {
                 Intent intent = new Intent(SplashActivity.this, MainActivity.class);
@@ -23,6 +27,5 @@ public class SplashActivity extends AppCompatActivity {
                 finish();
             }
         }, SPLASH_TIMER);
-
     }
 }

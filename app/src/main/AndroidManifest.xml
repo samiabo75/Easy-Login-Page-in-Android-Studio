@@ -13,23 +13,36 @@
         android:theme="@style/Theme.LoginPage"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity2"
+            android:name=".DashboardActivity.UpdateUserActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DashboardActivity.ManagerUserActivity"
+            android:exported="false"
+            android:parentActivityName=".DashboardActivity.RestaurantDashboardActivity" />
+        <activity
+            android:name=".DashboardActivity.UpdateUser"
+            android:exported="false" />
+        <activity
+            android:name=".DashboardActivity.DeliveryDashboardActivity"
             android:exported="false"
             android:theme="@style/Theme.LoginPage" />
         <activity
-            android:name=".MainMenuActivity"
+            android:name=".DashboardActivity.PassengerDashboardActivity"
             android:exported="false" />
         <activity
-            android:name=".RestaurantListFragment"
+            android:name=".DashboardActivity.RestaurantDashboardActivity"
             android:exported="false" />
         <activity
-            android:name=".SignUpActivity"
+            android:name=".DashboardActivity.MainMenuActivity"
             android:exported="false" />
         <activity
-            android:name=".FloatingActionButton"
+            android:name=".DashboardActivity.SignUpActivity"
             android:exported="false" />
         <activity
-            android:name=".SplashActivity"
+            android:name=".DashboardActivity.FloatingActionButton"
+            android:exported="false" />
+        <activity
+            android:name=".DashboardActivity.SplashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -38,7 +51,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name=".DashboardActivity.MainActivity"
             android:exported="false" />
     </application>
 

@@ -27,4 +27,17 @@
     <color name="dark_beige">#A4947B</color>
 
 
+    <!-- צבעים עיקריים -->
+    <color name="colorPrimary">#FF5722</color>
+    <color name="colorPrimaryDark">#E64A19</color>
+    <color name="colorAccent">#FFC107</color>
+
+    <!-- צבעים נוספים -->
+    <color name="backgroundColor">#FAFAFA</color>
+    <color name="colorTextPrimary">#212121</color>
+    <color name="colorTextSecondary">#757575</color>
+
+
+
+
 </resources>
